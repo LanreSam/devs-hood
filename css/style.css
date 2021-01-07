@@ -50,7 +50,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #D1BC00;
+  background: #1b1b1b;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -1172,8 +1172,8 @@ h6 {
 }
 
 #footer .footer-top {
-  padding: 60px 0 30px 0;
-  background: #f5f8fd;
+  padding: 80px 0 40px 0;
+  background: #fff;
 }
 
 #footer .footer-top .footer-info {
@@ -1186,7 +1186,7 @@ h6 {
   padding: 2px 0 2px 0;
   line-height: 1;
   font-family: "Montserrat", sans-serif;
-  color: #413e66;
+  color: #1b1b1b;
   font-weight: 400;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -1197,7 +1197,7 @@ h6 {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Montserrat", sans-serif;
-  color: #535074;
+  color: #1b1b1b;
 }
 
 #footer .footer-top .social-links a {
@@ -1223,7 +1223,7 @@ h6 {
 #footer .footer-top h4 {
   font-size: 14px;
   font-weight: bold;
-  color: #413e66;
+  color: #1b1b1b;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 10px;
@@ -1295,7 +1295,7 @@ h6 {
 
 #footer .footer-top .form #sendmessage {
   color: #fff;
-  background: #1bb1dc;
+  background: #1b1b1b;
   display: none;
   text-align: center;
   padding: 15px;
@@ -1328,7 +1328,7 @@ h6 {
 }
 
 #footer .footer-top .form label {
-  color: #413e66;
+  color: #1b1b1b;
   font-weight: 500;
 }
 
