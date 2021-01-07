@@ -219,14 +219,14 @@ h6 {
 }
 
 #intro .intro-info h2 {
-  color: #413e66;
+  color: #1b1b1b;
   margin-bottom: 40px;
   font-size: 48px;
   font-weight: 700;
 }
 
 #intro .intro-info h2 span {
-  color: #1bb1dc;
+  color: #D1BC00;
 }
 
 #intro .intro-info .btn-get-started,
@@ -241,13 +241,14 @@ h6 {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #1bb1dc;
-  color: #fff;
+  background: #1b1b1b;
 }
 
 #intro .intro-info .btn-get-started:hover,
 #intro .intro-info .btn-services:hover {
-  background: #0a98c0;
+  border: 1px solid #1b1b1b;
+  background: transparent;
+  color: #1b1b1b;
 }
 
 /*--------------------------------------------------------------
@@ -289,7 +290,7 @@ h6 {
 .main-nav a:hover,
 .main-nav .active > a,
 .main-nav li:hover > a {
-  color: #1bb1dc;
+  color: #D1BC00;
   text-decoration: none;
 }
 
@@ -485,7 +486,7 @@ h6 {
   margin: auto;
   font-size: 15px;
   padding-bottom: 60px;
-  color: #535074;
+  color: #fff;
   width: 50%;
 }
 
@@ -560,7 +561,7 @@ h6 {
   height: 92%;
   z-index: -1;
   content: '';
-  background-color: #ebf1fa;
+  background-color: #f0f0f0;
   transition: .5s;
 }
 
@@ -572,7 +573,7 @@ h6 {
   height: 92%;
   z-index: -1;
   content: '';
-  background-color: #ebf1fa;
+  background-color: #f0f0f0;
   transition: .5s;
 }
 
