@@ -135,14 +135,14 @@ h6 {
 }
 
 #topbar .social-links a {
-  color: #535074;
+  color: #1b1b1b;
   padding: 4px 12px;
   display: inline-block;
   line-height: 1px;
 }
 
 #topbar .social-links a:hover {
-  color: #1bb1dc;
+  color: #B40202;
 }
 
 #topbar .social-links a:first-child {
@@ -192,7 +192,7 @@ h6 {
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
-  color: #413e66;
+  color: #1b1b1b;
   text-decoration: none;
 }
 
@@ -278,7 +278,7 @@ h6 {
 .main-nav a {
   display: block;
   position: relative;
-  color: #413e66;
+  color: #1b1b1b;
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
