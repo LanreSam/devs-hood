@@ -730,6 +730,24 @@ h6 {
   background: #fff;
 }
 
+#team .team-header h3{
+  color: #1b1b1b;
+  font-size: 36px;
+  text-align: center;
+  font-weight: 700;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+}
+
+#team .team-header p {
+  text-align: center;
+  margin: auto;
+  font-size: 15px;
+  padding-bottom: 60px;
+  color: #1b1b1b;
+  width: 50%;
+}
+
 #team .member {
   text-align: center;
   margin-bottom: 20px;
