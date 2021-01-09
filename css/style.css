@@ -727,6 +727,7 @@ h6 {
 
 #team {
   padding: 60px 0;
+  background: #fff;
 }
 
 #team .member {
@@ -841,7 +842,7 @@ h6 {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Montserrat", sans-serif;
-  color: #fff;
+  color: #b1b1b1;
 }
 
 #footer .footer-top .social-links a {
@@ -891,8 +892,8 @@ h6 {
   padding-top: 0;
 }
 
-#footer .footer-top .footer-links ul a {
-  color: #fff;
+#footer .footer-top .footer-links ul a, p {
+  color: #b1b1b1;
 }
 
 #footer .footer-top .footer-links ul a:hover {
