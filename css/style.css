@@ -812,12 +812,12 @@ h6 {
 #footer {
   padding: 0 0 60px 0;
   font-size: 14px;
-  background: #fff;
+  background: #1b1b1b;
 }
 
 #footer .footer-top {
   padding: 120px 0 0 0;
-  background: #fff;
+  background: #1b1b1b;
 }
 
 #footer .footer-top .footer-info {
@@ -830,7 +830,7 @@ h6 {
   padding: 2px 0 2px 0;
   line-height: 1;
   font-family: "Montserrat", sans-serif;
-  color: #1b1b1b;
+  color: #fff;
   font-weight: 400;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -841,7 +841,7 @@ h6 {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Montserrat", sans-serif;
-  color: #1b1b1b;
+  color: #fff;
 }
 
 #footer .footer-top .social-links a {
@@ -867,7 +867,7 @@ h6 {
 #footer .footer-top h4 {
   font-size: 14px;
   font-weight: bold;
-  color: #1b1b1b;
+  color: #fff;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 10px;
@@ -892,7 +892,7 @@ h6 {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #1b1b1b;
+  color: #fff;
 }
 
 #footer .footer-top .footer-links ul a:hover {
@@ -919,18 +919,20 @@ h6 {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"] {
-  background: #1b1b1b;
+  background: #D1BC00;
   border: none;
   width: 35%;
   padding: 10px 0;
   text-align: center;
-  color: #fff;
+  color: #1b1b1b;
   transition: 0.3s;
   cursor: pointer;
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
-  background: #B40202;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
 }
 
 #footer .footer-top .form .form-group {
@@ -972,7 +974,7 @@ h6 {
 }
 
 #footer .footer-top .form label {
-  color: #1b1b1b;
+  color: #fff;
   font-weight: 500;
 }
 
@@ -1005,19 +1007,18 @@ h6 {
 }
 
 #footer .footer-top .form button[type="submit"] {
-  background: #1b1b1b;
+  background: #fff;
   border: 0;
   border-radius: 3px;
   padding: 8px 30px;
-  color: #fff;
+  color: #1b1b1b;
   transition: 0.3s;
 }
 
 #footer .footer-top .form button[type="submit"]:hover {
-  /* background: #0a98c0; */
-  border: 1px solid #1b1b1b;
+  border: 1px solid #fff;
   background: transparent;
-  color: #1b1b1b;
+  color: #fff;
   cursor: pointer;
 }
 
