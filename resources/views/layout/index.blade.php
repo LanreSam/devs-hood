@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,24 +9,25 @@
   <meta content="" name="description">
 
   <!-- Favicons -->
-  <link href="img/devs-hood.png" rel="icon">
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="{{ asset('assets/img/devs-hood.png') }}" rel="icon">
+  <link href="{{ asset('assets/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,600,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
+  <link href="{{ asset('assets/https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,600,700,700i|Montserrat:300,400,500,600,700') }}" rel="stylesheet">
 
   <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="{{ asset('assets/lib/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
 
   <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/animate/animate.min.css" rel="stylesheet">
-  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+  <link href="{{ asset('assets/lib/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('assets/lib/animate/animate.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('assets/lib/ionicons/css/ionicons.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('assets/lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('assets/lib/lightbox/css/lightbox.min.css') }}" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
+  <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
+  @livewireStyles
 
   <!-- =======================================================
     Theme Name: Rapid
@@ -57,7 +59,7 @@
       <div class="logo float-left d-flex">
         <!-- Uncomment below if you prefer to use an image logo -->
         <h1 class="mr-3"><a href="#intro" class="scrollto"><span class="text-light">DevsHood</span></a></h1>
-        <a href="#header" class="scrollto"><img src="img/devs-hood.png" alt="" class="img-fluid mb-4"></a>
+        <a href="#header" class="scrollto"><img src="{{ asset('assets/img/devs-hood.png') }}" alt="" class="img-fluid mb-4"></a>
       </div>
 
       <nav class="main-nav float-right d-none d-lg-block">
@@ -69,7 +71,7 @@
           <li><a href="#footer">Contact Us</a></li>
         </ul>
       </nav><!-- .main-nav -->
-      
+
     </div>
   </header><!-- #header -->
 
@@ -85,9 +87,9 @@
             <a href="#about" class="btn-get-started scrollto">Get Started</a>
           </div>
         </div>
-  
+
         <div class="col-md-6 intro-img order-md-last order-first">
-          <img src="img/intro-img.png" alt="" class="img-fluid">
+          <img src="{{ asset('assets/img/intro-img.png') }}" alt="" class="img-fluid">
         </div>
       </div>
 
@@ -106,7 +108,7 @@
 
           <div class="col-lg-5 col-md-6">
             <div class="about-img">
-              <img src="img/devs-team.jpeg" alt="">
+              <img src="{{ asset('assets/img/devs-team.jpeg') }}" alt="">
             </div>
           </div>
 
@@ -159,12 +161,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-webapp">
             <div class="portfolio-wrap">
-              <img src="img/portfolio/Voters-Login.png" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/portfolio/Voters-Login.png') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4><a href="#">E-vote User login UI</a></h4>
                 <p>Web App</p>
                 <div>
-                  <a href="img/portfolio/Voters-Login.png" data-lightbox="portfolio" data-title="E-vote login" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="{{ asset('assets/img/portfolio/Voters-Login.png') }}" data-lightbox="portfolio" data-title="E-vote login" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
                   <a href="http://oouevote.herokuapp.com" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                 </div>
               </div>
@@ -173,12 +175,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-webapp" data-wow-delay="0.1s">
             <div class="portfolio-wrap">
-              <img src="img/portfolio/Send-OTP-E-vote.png" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/portfolio/Send-OTP-E-vote.png') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4><a href="#">E-vote Request OTP</a></h4>
                 <p>Web App</p>
                 <div>
-                  <a href="img/portfolio/Send-OTP-E-vote.png" class="link-preview" data-lightbox="portfolio" data-title="E-vote Request OTP" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="{{ asset('assets/img/portfolio/Send-OTP-E-vote.png') }}" class="link-preview" data-lightbox="portfolio" data-title="E-vote Request OTP" title="Preview"><i class="ion ion-eye"></i></a>
                   <a href="http://oouevote.herokuapp.com" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                 </div>
               </div>
@@ -187,12 +189,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-webapp" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
-              <img src="img/portfolio/OTP-E-vote.png" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/portfolio/OTP-E-vote.png') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4><a href="#">E-vote Enter OTP</a></h4>
                 <p>Web App</p>
                 <div>
-                  <a href="img/portfolio/OTP-E-vote.png" class="link-preview" data-lightbox="portfolio" data-title="E-vote Enter OTP" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="{{ asset('assets/img/portfolio/OTP-E-vote.png') }}" class="link-preview" data-lightbox="portfolio" data-title="E-vote Enter OTP" title="Preview"><i class="ion ion-eye"></i></a>
                   <a href="http://oouevote.herokuapp.com" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                 </div>
               </div>
@@ -201,12 +203,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-webapp">
             <div class="portfolio-wrap">
-              <img src="img/portfolio/Active-Election-E-vote.png" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/portfolio/Active-Election-E-vote.png') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4><a href="#">E-vote Active Elections</a></h4>
                 <p>Web App</p>
                 <div>
-                  <a href="img/portfolio/Active-Election-E-vote.png" class="link-preview" data-lightbox="portfolio" data-title="E-vote Active Elections" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="{{ asset('assets/img/portfolio/Active-Election-E-vote.png') }}" class="link-preview" data-lightbox="portfolio" data-title="E-vote Active Elections" title="Preview"><i class="ion ion-eye"></i></a>
                   <a href="http://oouevote.herokuapp.com" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                 </div>
               </div>
@@ -215,12 +217,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-UI" data-wow-delay="0.1s">
             <div class="portfolio-wrap">
-              <img src="img/portfolio/Hifi-SMS-Teacher.jpg" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/portfolio/Hifi-SMS-Teacher.jpg') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4><a href="#">School Management System</a></h4>
                 <p>UI design</p>
                 <div>
-                  <a href="img/portfolio/Hifi-SMS-Teacher.jpg" class="link-preview" data-lightbox="portfolio" data-title="SMS UI" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="{{ asset('assets/img/portfolio/Hifi-SMS-Teacher.jpg') }}" class="link-preview" data-lightbox="portfolio" data-title="SMS UI" title="Preview"><i class="ion ion-eye"></i></a>
                   <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                 </div>
               </div>
@@ -229,12 +231,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-UI" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
-              <img src="img/portfolio/Hfi-SMS-1.jpg" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/portfolio/Hfi-SMS-1.jpg') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4><a href="#">School Management System</a></h4>
                 <p>UI design</p>
                 <div>
-                  <a href="img/portfolio/Hfi-SMS-1.jpg" class="link-preview" data-lightbox="portfolio" data-title="SMS UI" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="{{ asset('assets/img/portfolio/Hfi-SMS-1.jpg') }}" class="link-preview" data-lightbox="portfolio" data-title="SMS UI" title="Preview"><i class="ion ion-eye"></i></a>
                   <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                 </div>
               </div>
@@ -243,12 +245,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-graphics">
             <div class="portfolio-wrap">
-              <img src="img/devs-hood.png" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/devs-hood.png') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4><a href="#">Logo</a></h4>
                 <p>Graphics Design</p>
                 <div>
-                  <a href="img/devs-hood.png" class="link-preview" data-lightbox="portfolio" data-title="Graphics design" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="{{ asset('assets/img/devs-hood.png') }}" class="link-preview" data-lightbox="portfolio" data-title="Graphics design" title="Preview"><i class="ion ion-eye"></i></a>
                   <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                 </div>
               </div>
@@ -257,12 +259,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-graphics">
             <div class="portfolio-wrap">
-              <img src="img/portfolio/devshood-mockUp.jpg" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/portfolio/devshood-mockUp.jpg') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4><a href="#">Logo MockUp</a></h4>
                 <p>MockUp</p>
                 <div>
-                  <a href="img/portfolio/devshood-mockUp.jpg" class="link-preview" data-lightbox="portfolio" data-title="MockUp" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="{{ asset('assets/img/portfolio/devshood-mockUp.jpg') }}" class="link-preview" data-lightbox="portfolio" data-title="MockUp" title="Preview"><i class="ion ion-eye"></i></a>
                   <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                 </div>
               </div>
@@ -271,12 +273,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-graphics">
             <div class="portfolio-wrap">
-              <img src="img/portfolio/devshood-hoodie.jpg" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/portfolio/devshood-hoodie.jpg') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4><a href="#">Logo MockUp</a></h4>
                 <p>MockUp</p>
                 <div>
-                  <a href="img/portfolio/devshood-hoodie.jpg" class="link-preview" data-lightbox="portfolio" data-title="MockUp" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="{{ asset('assets/img/portfolio/devshood-hoodie.jpg') }}" class="link-preview" data-lightbox="portfolio" data-title="MockUp" title="Preview"><i class="ion ion-eye"></i></a>
                   <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                 </div>
               </div>
@@ -299,11 +301,11 @@
         </div>
 
         <div class="row">
-          
+
           <!-- Lanre -->
           <div class="col-lg-3 col-md-6 wow fadeInUp">
             <div class="member">
-              <img src="img/lanre-devshood.jpg" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/lanre-devshood.jpg') }}" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>Ezeche Lanre</h4>
@@ -322,7 +324,7 @@
           <!-- Ay -->
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="member">
-              <img src="img/Ay-devshood.jpg" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/Ay-devshood.jpg') }}" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>Ajayi Ayobami</h4>
@@ -341,7 +343,7 @@
           <!-- Dayo -->
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
             <div class="member">
-              <img src="img/Dayo-Devshood.jpg" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/Dayo-Devshood.jpg') }}" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>Agbato Ifadayo</h4>
@@ -358,7 +360,7 @@
           <!-- David -->
           <div class="col-lg-3 col-md-6 wow fadeInUp">
             <div class="member">
-              <img src="img/david-devshood.jpeg" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/david-devshood.jpeg') }}" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>Oyekanmi David</h4>
@@ -377,7 +379,7 @@
           <!-- Ibrahim -->
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
             <div class="member">
-              <img src="img/Ibrahim-devshood.jpeg" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/Ibrahim-devshood.jpeg')  }}" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>Olatoye Ibrahim</h4>
@@ -396,7 +398,7 @@
           <!-- Ladi -->
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
             <div class="member">
-              <img src="img/Ladi-devshood.jpeg" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/Ladi-devshood.jpeg') }}" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>Babayemi Oladipupo</h4>
@@ -414,7 +416,7 @@
           <!-- Kelvin -->
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
             <div class="member">
-              <img src="img/kelvin-devshood.jpeg" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/kelvin-devshood.jpeg')   }}" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>Joe Nuhu Kasai Kelvin</h4>
@@ -433,7 +435,7 @@
           <!-- Tomi -->
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
             <div class="member">
-              <img src="img/tomi-devshood.jpeg" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/tomi-devshood.jpeg') }}" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>Okeowo Oluwatomi</h4>
@@ -450,7 +452,7 @@
           <!-- Ganiu -->
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
             <div class="member">
-              <img src="img/ganiu-devshood.jpeg" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/ganiu-devshood.jpeg') }}" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>Ganiu adeniyi (Gantech)</h4>
@@ -469,7 +471,7 @@
           <!-- Osijo -->
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
             <div class="member">
-              <img src="img/osijo-devshood.jpeg" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/osijo-devshood.jpeg') }}" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>Osijo Emamnuel</h4>
@@ -488,7 +490,7 @@
           <!-- Bola -->
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
             <div class="member">
-              <img src="img/bola-devshood.jpeg" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/bola-devshood.jpeg') }}" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>Bolarinwa Ogunbamowa</h4>
@@ -507,7 +509,7 @@
           <!-- Clinton -->
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
             <div class="member">
-              <img src="img/clinton-devshood.jpeg" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/clinton-devshood.jpeg')  }}" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>Odufuwa Clinton</h4>
@@ -524,7 +526,7 @@
           <!-- Solomon -->
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
             <div class="member">
-              <img src="img/solomon-devshood.jpg" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/solomon-devshood.jpg') }}" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>Odebisi Solomon</h4>
@@ -614,7 +616,7 @@
           <div class="col-lg-6">
 
             <div class="form">
-              
+
               <h4>Send us a message</h4>
               <p>We typically reply to messages within 24 hours, for urgent replies, you can call us, or contact anyone on the team</p>
               <form action="" method="post" role="form" class="contactForm">
@@ -652,22 +654,23 @@
   <div id="preloader"></div>
 
   <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/mobile-nav/mobile-nav.js"></script>
-  <script src="lib/wow/wow.min.js"></script>
-  <script src="lib/waypoints/waypoints.min.js"></script>
-  <script src="lib/counterup/counterup.min.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/isotope/isotope.pkgd.min.js"></script>
-  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="{{ asset('assets/lib/jquery/jquery.min.js') }}"></script>
+  <script src="{{ asset('assets/lib/jquery/jquery-migrate.min.js') }}"></script>
+  <script src="{{ asset('assets/lib/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+  <script src="{{ asset('assets/lib/easing/easing.min.js') }}"></script>
+  <script src="{{ asset('assets/lib/mobile-nav/mobile-nav.js') }}"></script>
+  <script src="{{ asset('assets/lib/wow/wow.min.js') }}"></script>
+  <script src="{{ asset('assets/lib/waypoints/waypoints.min.js') }}"></script>
+  <script src="{{ asset('assets/lib/counterup/counterup.min.js') }}"></script>
+  <script src="{{ asset('assets/lib/owlcarousel/owl.carousel.min.js') }}"></script>
+  <script src="{{ asset('assets/lib/isotope/isotope.pkgd.min.js') }}"></script>
+  <script src="{{ asset('assets/lib/lightbox/js/lightbox.min.js') }}"></script>
   <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
+  <script src="{{ asset('assets/contactform/contactform.js') }}"></script>
 
   <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
+  <script src="{{ asset('assets/js/main.js') }}"></script>
 
+  @livewireScripts
 </body>
 </html>
