@@ -1,450 +1,227 @@
-<main id="main">
 
-    <!--==========================
-      About Us Section
-    ============================-->
-    <section id="about">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>DevsHood</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
 
+  <!-- Favicons -->
+  <link href="{{ asset('assets/img/devs-hood.png') }}" rel="icon">
+  <link href="{{ asset('assets/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="{{ asset('assets/https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,600,700,700i|Montserrat:300,400,500,600,700') }}" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="{{ asset('assets/lib/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="{{ asset('assets/lib/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('assets/lib/animate/animate.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('assets/lib/ionicons/css/ionicons.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('assets/lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('assets/lib/lightbox/css/lightbox.min.css') }}" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
+  @livewireStyles
+
+  <!-- =======================================================
+    Theme Name: Rapid
+    Theme URL: https://bootstrapmade.com/rapid-multipurpose-bootstrap-business-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+</head>
+
+<body>
+  <!--==========================
+  Header
+  ============================-->
+  <header id="header">
+
+    <div id="topbar">
       <div class="container">
+        <div class="social-links">
+          <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+          <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+          <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+          <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="logo float-left d-flex">
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <h1 class="mr-3"><a href="#intro" class="scrollto"><span class="text-light">DevsHood</span></a></h1>
+        <a href="#header" class="scrollto"><img src="{{ asset('assets/img/devs-hood.png') }}" alt="" class="img-fluid mb-4"></a>
+      </div>
+
+      <nav class="main-nav float-right d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="#intro">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#footer">Contact Us</a></li>
+        </ul>
+      </nav><!-- .main-nav -->
+
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro" class="clearfix">
+    <div class="container d-flex h-100">
+      <div class="row justify-content-center align-self-center">
+        <div class="col-md-6 intro-info order-md-first order-last">
+          <h2>DevsHood<br>team of Computer <span>Scientist!</span></h2>
+          <div>
+            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+          </div>
+        </div>
+
+        <div class="col-md-6 intro-img order-md-last order-first">
+          <img src="{{ asset('assets/img/intro-img.png') }}" alt="" class="img-fluid">
+        </div>
+      </div>
+
+    </div>
+  </section><!-- #intro -->
+
+  {{ $slot }}
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer" class="section-bg">
+    <div class="footer-top">
+      <div class="container">
+
         <div class="row">
 
-          <div class="col-lg-5 col-md-6">
-            <div class="about-img">
-              <img src="{{ asset('assets/img/devs-team.jpeg') }}" alt="">
+          <div class="col-lg-6">
+
+            <div class="row">
+
+                <div class="col-sm-6">
+
+                  <div class="footer-info">
+                    <h3>DevsHood</h3>
+                    <p>Devhood is a tech conglomerates that are purpose driven with the aim of helping and assisting brands and cooperate organizations to be digitally, globally recognize and attainable.</p>
+                  </div>
+
+                  <div class="footer-newsletter">
+                    <h4>Our Newsletter</h4>
+                    <p>Please kindly enter your email in the input field provided below and click the subscribe button, to subscribe to our newsletter where we share amazing contents, deals & promotion and useful information that might take your business to the next level.</p>
+                    <form action="" method="post">
+                      <input type="email" name="email"><input type="submit"  value="Subscribe">
+                    </form>
+                  </div>
+
+                </div>
+
+                <div class="col-sm-6">
+                  <div class="footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                      <li><a href="#intro">Home</a></li>
+                      <li><a href="#about">About us</a></li>
+                      <li><a href="#portfolio">Portfolio</a></li>
+                      <li><a href="#">Terms of service</a></li>
+                      <li><a href="#">Privacy policy</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="footer-links">
+                    <h4>Contact Us</h4>
+                    <p>
+                      <!-- A108 Adam Street <br>
+                      New York, NY 535022<br>
+                      United States <br> -->
+                      <strong class="text-light">Phone:</strong> +234 8128 251 336<br>
+                      <strong class="text-light">Email:</strong> Devshood@gmail.com<br>
+                    </p>
+                  </div>
+
+                  <div class="social-links">
+                    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                    <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                  </div>
+
+                </div>
+
             </div>
+
           </div>
 
-          <div class="col-lg-7 col-md-6">
-            <div class="about-content">
-              <h2>About Us</h2>
-              <h3>Team of Computer Scientist with different area of specialization</h3>
-              <p>Devhood is a tech conglomerates that are purpose driven with the aim of helping and assisting brands and cooperate organizations to be digitally, globally recognize and attainable.</p>
-              <p>This cohort of tech personnels believe that the world is moving and will soon launch herself into the computing age and everything will have to be done digitally.</p>
-              <p>Devhood is saddled with experts in</p>
-              <ul>
-                <li><i class="ion-android-checkmark-circle"></i> Software development</li>
-                <li><i class="ion-android-checkmark-circle"></i> Website Development & Design</li>
-                <li><i class="ion-android-checkmark-circle"></i> UI/UX Design </li>
-                <li><i class="ion-android-checkmark-circle"></i> Graphics Design </li>
-                <li><i class="ion-android-checkmark-circle"></i> Networking (CCNA, Microsoft Servers e.t.c) </li>
-                <li><i class="ion-android-checkmark-circle"></i> Ethical Hacking & Pen testing </li>
-                <li><i class="ion-android-checkmark-circle"></i>  Digital Marketing & SEO (Search Engine Optimization) </li>
-              </ul>
-              <p>We focus on your goals and dreams and diligently help you to achieve them all. Our experts are well experienced and are well trained to best handle your short term and long term projects. This is what Devhood is called to be.</p>
+          <div class="col-lg-6">
+
+            <div class="form">
+
+              <h4>Send us a message</h4>
+              <p>We typically reply to messages within 24 hours, for urgent replies, you can call us, or contact anyone on the team</p>
+              <form action="" method="post" role="form" class="contactForm">
+                <div class="form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                  <div class="validation"></div>
+                </div>
+
+                <div id="sendmessage">Your message has been sent. Thank you!</div>
+                <div id="errormessage"></div>
+
+                <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
+              </form>
             </div>
           </div>
         </div>
       </div>
+    </div>
+  </footer><!-- #footer -->
 
-    </section><!-- #about -->
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <!-- Uncomment below if you want to use a preloader -->
+  <div id="preloader"></div>
 
-    <!--==========================
-      Portfolio Section
-    ============================-->
-    <section id="portfolio" class="section-bg">
-      <div class="container">
+  <!-- JavaScript Libraries -->
+  <script src="{{ asset('assets/lib/jquery/jquery.min.js') }}"></script>
+  <script src="{{ asset('assets/lib/jquery/jquery-migrate.min.js') }}"></script>
+  <script src="{{ asset('assets/lib/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+  <script src="{{ asset('assets/lib/easing/easing.min.js') }}"></script>
+  <script src="{{ asset('assets/lib/mobile-nav/mobile-nav.js') }}"></script>
+  <script src="{{ asset('assets/lib/wow/wow.min.js') }}"></script>
+  <script src="{{ asset('assets/lib/waypoints/waypoints.min.js') }}"></script>
+  <script src="{{ asset('assets/lib/counterup/counterup.min.js') }}"></script>
+  <script src="{{ asset('assets/lib/owlcarousel/owl.carousel.min.js') }}"></script>
+  <script src="{{ asset('assets/lib/isotope/isotope.pkgd.min.js') }}"></script>
+  <script src="{{ asset('assets/lib/lightbox/js/lightbox.min.js') }}"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="{{ asset('assets/contactform/contactform.js') }}"></script>
 
-        <header class="section-header">
-          <h3 class="section-title">Our Portfolio</h3>
-        </header>
+  <!-- Template Main Javascript File -->
+  <script src="{{ asset('assets/js/main.js') }}"></script>
 
-        <div class="row">
-          <div class="col-lg-12">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-webapp">Web App</li>
-              <li data-filter=".filter-graphics">Graphics & MockUp</li>
-              <li data-filter=".filter-UI">UI/UX</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-webapp">
-            <div class="portfolio-wrap">
-              <img src="{{ asset('assets/img/portfolio/Voters-Login.png') }}" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4><a href="#">E-vote User login UI</a></h4>
-                <p>Web App</p>
-                <div>
-                  <a href="{{ asset('assets/img/portfolio/Voters-Login.png') }}" data-lightbox="portfolio" data-title="E-vote login" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="http://oouevote.herokuapp.com" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-webapp" data-wow-delay="0.1s">
-            <div class="portfolio-wrap">
-              <img src="{{ asset('assets/img/portfolio/Send-OTP-E-vote.png') }}" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4><a href="#">E-vote Request OTP</a></h4>
-                <p>Web App</p>
-                <div>
-                  <a href="{{ asset('assets/img/portfolio/Send-OTP-E-vote.png') }}" class="link-preview" data-lightbox="portfolio" data-title="E-vote Request OTP" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="http://oouevote.herokuapp.com" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-webapp" data-wow-delay="0.2s">
-            <div class="portfolio-wrap">
-              <img src="{{ asset('assets/img/portfolio/OTP-E-vote.png') }}" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4><a href="#">E-vote Enter OTP</a></h4>
-                <p>Web App</p>
-                <div>
-                  <a href="{{ asset('assets/img/portfolio/OTP-E-vote.png') }}" class="link-preview" data-lightbox="portfolio" data-title="E-vote Enter OTP" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="http://oouevote.herokuapp.com" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-webapp">
-            <div class="portfolio-wrap">
-              <img src="{{ asset('assets/img/portfolio/Active-Election-E-vote.png') }}" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4><a href="#">E-vote Active Elections</a></h4>
-                <p>Web App</p>
-                <div>
-                  <a href="{{ asset('assets/img/portfolio/Active-Election-E-vote.png') }}" class="link-preview" data-lightbox="portfolio" data-title="E-vote Active Elections" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="http://oouevote.herokuapp.com" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-UI" data-wow-delay="0.1s">
-            <div class="portfolio-wrap">
-              <img src="{{ asset('assets/img/portfolio/Hifi-SMS-Teacher.jpg') }}" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4><a href="#">School Management System</a></h4>
-                <p>UI design</p>
-                <div>
-                  <a href="{{ asset('assets/img/portfolio/Hifi-SMS-Teacher.jpg') }}" class="link-preview" data-lightbox="portfolio" data-title="SMS UI" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-UI" data-wow-delay="0.2s">
-            <div class="portfolio-wrap">
-              <img src="{{ asset('assets/img/portfolio/Hfi-SMS-1.jpg') }}" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4><a href="#">School Management System</a></h4>
-                <p>UI design</p>
-                <div>
-                  <a href="{{ asset('assets/img/portfolio/Hfi-SMS-1.jpg') }}" class="link-preview" data-lightbox="portfolio" data-title="SMS UI" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-graphics">
-            <div class="portfolio-wrap">
-              <img src="{{ asset('assets/img/devs-hood.png') }}" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4><a href="#">Logo</a></h4>
-                <p>Graphics Design</p>
-                <div>
-                  <a href="{{ asset('assets/img/devs-hood.png') }}" class="link-preview" data-lightbox="portfolio" data-title="Graphics design" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-graphics">
-            <div class="portfolio-wrap">
-              <img src="{{ asset('assets/img/portfolio/devshood-mockUp.jpg') }}" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4><a href="#">Logo MockUp</a></h4>
-                <p>MockUp</p>
-                <div>
-                  <a href="{{ asset('assets/img/portfolio/devshood-mockUp.jpg') }}" class="link-preview" data-lightbox="portfolio" data-title="MockUp" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-graphics">
-            <div class="portfolio-wrap">
-              <img src="{{ asset('assets/img/portfolio/devshood-hoodie.jpg') }}" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4><a href="#">Logo MockUp</a></h4>
-                <p>MockUp</p>
-                <div>
-                  <a href="{{ asset('assets/img/portfolio/devshood-hoodie.jpg') }}" class="link-preview" data-lightbox="portfolio" data-title="MockUp" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- #portfolio -->
-
-    <!--==========================
-      Team Section
-    ============================-->
-    <section id="team" class="section-bg">
-      <div class="container">
-        <div class="team-header">
-          <h3>Team</h3>
-          <p>We at DevsHood Would Like to introduce you to every one on the team</p>
-        </div>
-
-        <div class="row">
-
-          <!-- Lanre -->
-          <div class="col-lg-3 col-md-6 wow fadeInUp">
-            <div class="member">
-              <img src="{{ asset('assets/img/lanre-devshood.jpg') }}" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Ezeche Lanre</h4>
-                  <span>Software Developer</span>
-                  <div class="social">
-                    <a href="https://twitter.com/lanre_sam"><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-globe"></i></a>
-                    <a href="https://github.com/LanreSam"><i class="fa fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/ezeche-lanre/"><i class="fa fa-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Ay -->
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="member">
-              <img src="{{ asset('assets/img/Ay-devshood.jpg') }}" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Ajayi Ayobami</h4>
-                  <span>UI/UX Designer & UI developer</span>
-                  <div class="social">
-                    <a href="https://twitter.com/tumise100"><i class="fa fa-twitter"></i></a>
-                    <a href="https://dribbble.com/tumise100"><i class="fa fa-dribbble"></i></a>
-                    <a href="https://www.github.com/tumise100"><i class="fa fa-github"></i></a>
-                    <a href="https://instagram.com/tumise100"><i class="fa fa-instagram"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Dayo -->
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-            <div class="member">
-              <img src="{{ asset('assets/img/Dayo-Devshood.jpg') }}" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Agbato Ifadayo</h4>
-                  <span>Web Designer</span>
-                  <div class="social">
-                    <a href="https://www.twitter.com/agbato_dayo"><i class="fa fa-twitter"></i></a>
-                    <a href="mailto:dayoagbato@gmail.com"><i class="fa fa-at"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- David -->
-          <div class="col-lg-3 col-md-6 wow fadeInUp">
-            <div class="member">
-              <img src="{{ asset('assets/img/david-devshood.jpeg') }}" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Oyekanmi David</h4>
-                  <span>Fullstack Django - React Developer</span>
-                  <div class="social">
-                    <a href="https://twitter.com/lanre_sam"><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-globe"></i></a>
-                    <a href="https://github.com/LanreSam"><i class="fa fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/ezeche-lanre/"><i class="fa fa-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Ibrahim -->
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-            <div class="member">
-              <img src="{{ asset('assets/img/Ibrahim-devshood.jpeg')  }}" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Olatoye Ibrahim</h4>
-                  <span>Network Administrator || Ethical Hacking</span>
-                  <div class="social">
-                    <a href="https://www.twitter.com/dhare_toye"><i class="fa fa-twitter"></i></a>
-                    <a href="https://www.facebook.com/Olly.Ib"><i class="fa fa-facebook"></i></a>
-                    <a href="https://www.instagram.com/_cyberteck/"><i class="fa fa-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/olatoye-ibrahim-eniola-87567619b"><i class="fa fa-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Ladi -->
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-            <div class="member">
-              <img src="{{ asset('assets/img/Ladi-devshood.jpeg') }}" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Babayemi Oladipupo</h4>
-                  <span>backend Developer</span>
-                  <div class="social">
-                    <a href="https://www.twitter.com/diptech_"><i class="fa fa-twitter"></i></a>
-                    <a href="https://github.com/Diptech-hub"><i class="fa fa-github"></i></a>
-                    <a href="http://linkedin.com/in/babayemi-oladipupo-698820189"><i class="fa fa-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Kelvin -->
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-            <div class="member">
-              <img src="{{ asset('assets/img/kelvin-devshood.jpeg')   }}" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Joe Nuhu Kasai Kelvin</h4>
-                  <span>Network Administrator & Graphics Designer</span>
-                  <div class="social">
-                    <a href="https://wa.link/5ke0ei"><i class="fa fa-whatsapp"></i></a>
-                    <a href="https://www.facebook.com/kasai.kelvinie"><i class="fa fa-facebook"></i></a>
-                    <a href="https://www.instagram.com/Kasaijoe55"><i class="fa fa-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/joe-kasai-a658531aa"><i class="fa fa-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Tomi -->
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-            <div class="member">
-              <img src="{{ asset('assets/img/tomi-devshood.jpeg') }}" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Okeowo Oluwatomi</h4>
-                  <span>Front End developer</span>
-                  <div class="social">
-                    <a href="https://twitter.com/0luwat0mi?s=08"><i class="fa fa-twitter"></i></a>
-                    <a href="https://github.com/Oluwat0mi"><i class="fa fa-github"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Ganiu -->
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-            <div class="member">
-              <img src="{{ asset('assets/img/ganiu-devshood.jpeg') }}" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Ganiu adeniyi (Gantech)</h4>
-                  <span>Wordpress developer & SEO Expert</span>
-                  <div class="social">
-                    <a href="https://wa.me/message/DG7W7RCFVSWXO1"><i class="fa fa-whatsapp"></i></a>
-                    <a href="https://web.facebook.com/gantechnetworks"><i class="fa fa-facebook"></i></a>
-                    <a href="https://wa.me/message/DG7W7RCFVSWXO1"><i class="fa fa-telegram"></i></a>
-                    <a href="https://Gantech.com.ng"><i class="fa fa-globe"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Osijo -->
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-            <div class="member">
-              <img src="{{ asset('assets/img/osijo-devshood.jpeg') }}" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Osijo Emamnuel</h4>
-                  <span>Wordpress Developer</span>
-                  <div class="social">
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-instagram"></i></a>
-                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Bola -->
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-            <div class="member">
-              <img src="{{ asset('assets/img/bola-devshood.jpeg') }}" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Bolarinwa Ogunbamowa</h4>
-                  <span>Network Administrator</span>
-                  <div class="social">
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-instagram"></i></a>
-                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Clinton -->
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-            <div class="member">
-              <img src="{{ asset('assets/img/clinton-devshood.jpeg')  }}" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Odufuwa Clinton</h4>
-                  <span>Python Developer</span>
-                  <div class="social">
-                    <a href="tel: +234 905 734 2812"><i class="fa fa-phone"></i></a>
-                    <a href="Https://github.com/Ceejay16042"><i class="fa fa-github"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Solomon -->
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-            <div class="member">
-              <img src="{{ asset('assets/img/solomon-devshood.jpg') }}" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Odebisi Solomon</h4>
-                  <span>Full Stack Developer</span>
-                  <div class="social">
-                    <a href="tel:+234 701 948 1634"><i class="fa fa-phone"></i></a>
-                    <a href="https://www.linkedin.com/in/odebisi-solomon-9b44591b1"><i class="fa fa-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- #team -->
-
-  </main>
+  @livewireScripts
+</body>
+</html>
