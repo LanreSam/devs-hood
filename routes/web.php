@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Livewire\IndexComponent;
+use App\Http\Controllers\NewsLetterSubscriptionController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,3 +20,5 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/', IndexComponent::class);
+
+Route::get('/subscribers', [NewsLetterSubscriptionController::class, 'subscribers']);
