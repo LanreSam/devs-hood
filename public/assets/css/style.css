@@ -16,7 +16,7 @@ body {
 }
 
 .swal-overlay {
-  background-color: rgba(209, 188, 0, 0.5);
+  background-color: rgba(27, 27, 27, 0.7);
 }
 .swal-button {
   padding: 8px 30px;
@@ -25,11 +25,7 @@ body {
   color: #fff;
   font-size: 15px;
 }
-.swal-button:hover{
-  background-color: #fff;
-  border: 1px solid #1b1b1b;
-  color: #1b1b1b;
-}
+
 
 a {
   color: #1bb1dc;
