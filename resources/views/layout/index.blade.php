@@ -124,6 +124,10 @@
                     <form action="{{ route('store.email') }}" method="post">
                         @csrf
                         <input type="email" name="email"><input type="submit"  value="Subscribe">
+
+                        @error('email')
+                            <span class="text-danger">{{ $message }}</span>
+                        @enderror
                     </form>
                   </div>
 
@@ -233,6 +237,9 @@
         <script>
             swal("Subscription Successful!", "{!! Session::get('subscribe-msg') !!}", "success", {
                 button:"Ok",
+                title: "DevsHood",
+                // className: "section-bg"
+                closeOnClickOutside: false,
             })
         </script>
     @endif

@@ -15,6 +15,15 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+.swal-overlay {
+  background-color: rgba(209, 188, 0, 0.5);
+}
+
+.swal-modal {
+  background-color: rgba(63,255,106,0.69);
+  border: 3px solid white;
+}
+
 a {
   color: #1bb1dc;
   transition: 0.5s;

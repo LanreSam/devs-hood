@@ -15,6 +15,10 @@ class NewsLetterSubscriptionController extends Controller
 
     public function storeEmail(Request $request)
     {
+        $validatedata = $request->validate([
+            'email' => 'required|unique:news_letter_subscriptions'
+        ]);
+
         $subscriber = new NewsLetterSubscription();
         $subscriber->email = $request->email;
         $subscriber->save();
