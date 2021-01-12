@@ -18,10 +18,17 @@ body {
 .swal-overlay {
   background-color: rgba(209, 188, 0, 0.5);
 }
-
-.swal-modal {
-  background-color: rgba(63,255,106,0.69);
-  border: 3px solid white;
+.swal-button {
+  padding: 8px 30px;
+  border-radius: 2px;
+  background-color: #1b1b1b;
+  color: #fff;
+  font-size: 15px;
+}
+.swal-button:hover{
+  background-color: #fff;
+  border: 1px solid #1b1b1b;
+  color: #1b1b1b;
 }
 
 a {

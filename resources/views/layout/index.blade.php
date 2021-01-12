@@ -236,9 +236,8 @@
     @if(Session::has('subscribe-msg'))
         <script>
             swal("Subscription Successful!", "{!! Session::get('subscribe-msg') !!}", "success", {
-                button:"Ok",
+                button:"Close",
                 title: "DevsHood",
-                // className: "section-bg"
                 closeOnClickOutside: false,
             })
         </script>
