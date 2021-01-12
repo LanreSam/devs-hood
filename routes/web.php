@@ -22,3 +22,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', IndexComponent::class);
 
 Route::get('/subscribers', [NewsLetterSubscriptionController::class, 'subscribers']);
+
+Route::post('/store-email', [NewsLetterSubscriptionController::class, 'storeEmail'])->name('store.email');
