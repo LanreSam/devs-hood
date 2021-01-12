@@ -122,6 +122,7 @@
                     <h4>Our Newsletter</h4>
                     <p>Please kindly enter your email in the input field provided below and click the subscribe button, to subscribe to our newsletter where we share amazing contents, deals & promotion and useful information that might take your business to the next level.</p>
                     <form action="" method="post">
+                        @csrf
                       <input type="email" name="email"><input type="submit"  value="Subscribe">
                     </form>
                   </div>

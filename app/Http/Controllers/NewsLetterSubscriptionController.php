@@ -9,7 +9,16 @@ class NewsLetterSubscriptionController extends Controller
 {
     public function subscribers()
     {
-        $subscribe = NewsLetterSubscription::all();
-        return $subscribe;
+        $subscribers = NewsLetterSubscription::all();
+        return $subscribers;
+    }
+
+    public function storeEmail(Request $request)
+    {
+        $subscriber = new NewsLetterSubscription();
+        $subscriber->email = $request->email;
+        $subscriber->save();
+
+        return back()->with('subscribe-msg', 'You have successfully subscribed to DevsHood NewsLetter!');
     }
 }
