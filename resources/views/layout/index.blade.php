@@ -121,10 +121,6 @@
                   <div class="footer-newsletter">
                     <h4>Our Newsletter</h4>
                     <p>Please kindly enter your email in the input field provided below and click the subscribe button, to subscribe to our newsletter where we share amazing contents, deals & promotion and useful information that might take your business to the next level.</p>
-                    @if(Session::has('subscribe-msg'))
-                        <div class="alert alert-success" role="alert"></div>
-                        {{ Session::get('subscribe-msg') }}
-                    @endif
                     <form action="{{ route('store.email') }}" method="post">
                         @csrf
                         <input type="email" name="email"><input type="submit"  value="Subscribe">
@@ -209,6 +205,10 @@
   <!-- Uncomment below if you want to use a preloader -->
   <div id="preloader"></div>
 
+  {{-- sweet alert library --}}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous"></script>
+
+
   <!-- JavaScript Libraries -->
   <script src="{{ asset('assets/lib/jquery/jquery.min.js') }}"></script>
   <script src="{{ asset('assets/lib/jquery/jquery-migrate.min.js') }}"></script>
@@ -221,12 +221,20 @@
   <script src="{{ asset('assets/lib/owlcarousel/owl.carousel.min.js') }}"></script>
   <script src="{{ asset('assets/lib/isotope/isotope.pkgd.min.js') }}"></script>
   <script src="{{ asset('assets/lib/lightbox/js/lightbox.min.js') }}"></script>
+
   <!-- Contact Form JavaScript File -->
   <script src="{{ asset('assets/contactform/contactform.js') }}"></script>
 
   <!-- Template Main Javascript File -->
   <script src="{{ asset('assets/js/main.js') }}"></script>
-
   @livewireScripts
+
+    @if(Session::has('subscribe-msg'))
+        <script>
+            swal("Subscription Successful!", "{!! Session::get('subscribe-msg') !!}", "success", {
+                button:"Ok",
+            })
+        </script>
+    @endif
 </body>
 </html>
