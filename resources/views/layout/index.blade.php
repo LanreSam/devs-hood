@@ -173,7 +173,7 @@
               <h4>Send us a message</h4>
               <p>We typically reply to messages within 24 hours, for urgent replies, you can call us, or contact anyone on the team</p>
 
-                <form action="" method="post" role="form" class="contactForm">
+                <form action="{{ route('send.mail') }}" method="post" role="form" class="contactForm">
                     <div class="form-group">
                         <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                         <div class="validation"></div>
@@ -234,6 +234,16 @@
     @if(Session::has('subscribe-msg'))
         <script>
             swal("Subscription Successful!", "{!! Session::get('subscribe-msg') !!}", "success", {
+                button:"Close",
+                title: "DevsHood",
+                closeOnClickOutside: false,
+            })
+        </script>
+    @endif
+
+    @if(Session::has('mail-msg'))
+        <script>
+            swal("Subscription Successful!", "{!! Session::get('mail-msg') !!}", "{{ asset('assets/img/devs-hood.png') }}", {
                 button:"Close",
                 title: "DevsHood",
                 closeOnClickOutside: false,
