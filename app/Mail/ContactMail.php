@@ -30,6 +30,6 @@ class ContactMail extends Mailable
      */
     public function build()
     {
-        return $this->subject('Contact Subject')->view('layout.index');
+        return $this->subject('Contact Subject')->view('errors.404');
     }
 }

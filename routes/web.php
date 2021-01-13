@@ -23,4 +23,4 @@ Route::get('/subscribers', [NewsLetterSubscriptionController::class, 'subscriber
 
 Route::post('/store-email', [NewsLetterSubscriptionController::class, 'storeEmail'])->name('store.email');
 
-Route::post('/send-mail', [ContactController::class, 'sendMail'])->name('send.mail');
+Route::post('/send-email', [ContactController::class, 'sendMail'])->name('send.email');
