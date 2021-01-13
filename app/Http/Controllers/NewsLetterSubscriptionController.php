@@ -26,7 +26,8 @@ class NewsLetterSubscriptionController extends Controller
         $subscriber->save();
         
         $msg = "Thanks for subscribing to our NewsLetter";
-        Mail::to('ezechelanre@gmail.com')->send(new NewsletterSubscriptionMail($msg));
+        Mail::to($subscriber)->send(new NewsletterSubscriptionMail($msg));
+        
         return back()->with('subscribe-msg', 'You have successfully subscribed to DevsHood NewsLetter!');
     }
 }

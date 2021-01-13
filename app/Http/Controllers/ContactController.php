@@ -23,8 +23,12 @@ class ContactController extends Controller
             'subject' => $request->subject,
             'message' => $request->message,
         ];
+        $email = ['email' => $request->email];
 
+        $msg = "We have successfully recieved your mail and will reply you shortly";
         Mail::to('ezechelanre@gmail.com')->send(new ContactMail($details));
+        Mail::to($email)->send(new ContactMail($msg));
+
         return back()->with('mail-msg', "Mail sent successfully. We will reply you shortly.");
     }
 }
