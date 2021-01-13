@@ -10,6 +10,13 @@ class ContactController extends Controller
 {
     public function sendMail(Request $request)
     {
+        $validatedata = $request->validate([
+            'name' => 'required|min:3|max:12',
+            'email' => 'required|unique:news_letter_subscriptions',
+            'subject' => 'required',
+            'message' => 'required'
+        ]);
+
         $details = [
             'name' => $request->name,
             'email' => $request->email,
