@@ -204,7 +204,7 @@
                         @enderror
                     </div>
 
-                    <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
+                    <div class="text-center"><button type="submit" title="Send Message" class="btn">Send Message</button></div>
                     
                 </form>
             </div>

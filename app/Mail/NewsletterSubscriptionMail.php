@@ -7,20 +7,19 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
-class ContactMail extends Mailable
+class NewsletterSubscriptionMail extends Mailable
 {
     use Queueable, SerializesModels;
 
-    public $details;
-
+    public $msg;
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct($details)
+    public function __construct($msg)
     {
-        $this->details = $details;
+        $this->msg = $msg;
     }
 
     /**
@@ -30,6 +29,6 @@ class ContactMail extends Mailable
      */
     public function build()
     {
-        return $this->subject('Contact Subject')->view('emails.contactMail');
+        return $this->subject('DevsHood Newsletter Subscription')->view('emails.NewsletterSubscriptionMail');
     }
 }

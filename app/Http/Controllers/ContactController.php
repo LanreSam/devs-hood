@@ -12,7 +12,7 @@ class ContactController extends Controller
     {
         $validatedata = $request->validate([
             'name' => 'required|min:3|max:12',
-            'email' => 'required|unique:news_letter_subscriptions',
+            'email' => 'required',
             'subject' => 'required',
             'message' => 'required'
         ]);
