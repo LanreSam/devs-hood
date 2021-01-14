@@ -242,6 +242,23 @@
             </div>
           </div>
 
+          <!-- samuel -->
+          <div class="col-lg-3 col-md-6 wow fadeInUp">
+            <div class="member">
+              <img src="{{ asset('assets/img/samuel-devshood.jpeg') }}" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Olalekan Samuel Lawal</h4>
+                  <span>Web & Graphics Design</span>
+                  <div class="social">
+                    <a href="https://www.facebook.com/photo.php?fbid=1119253914918005&set=a.106484966194910&type=3"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/olalekan-lawal-7368b6202"><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <!-- Dayo -->
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
             <div class="member">
@@ -268,10 +285,8 @@
                   <h4>Oyekanmi David</h4>
                   <span>Fullstack Django - React Developer</span>
                   <div class="social">
-                    <a href="https://twitter.com/lanre_sam"><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-globe"></i></a>
-                    <a href="https://github.com/LanreSam"><i class="fa fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/ezeche-lanre/"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://twitter.com/KingDavid_ace"><i class="fa fa-twitter"></i></a>
+                    <a href="https://github.com/Dave-Ace"><i class="fa fa-github"></i></a>
                   </div>
                 </div>
               </div>
@@ -321,7 +336,7 @@
               <img src="{{ asset('assets/img/kelvin-devshood.jpeg')   }}" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4>Joe Nuhu Kasai Kelvin</h4>
+                  <h4>Joe Kelvin</h4>
                   <span>Network Administrator & Graphics Designer</span>
                   <div class="social">
                     <a href="https://wa.link/5ke0ei"><i class="fa fa-whatsapp"></i></a>
@@ -357,7 +372,7 @@
               <img src="{{ asset('assets/img/ganiu-devshood.jpeg') }}" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4>Ganiu adeniyi (Gantech)</h4>
+                  <h4>Ganiu Adeniyi (Gantech)</h4>
                   <span>Wordpress developer & SEO Expert</span>
                   <div class="social">
                     <a href="https://wa.me/message/DG7W7RCFVSWXO1"><i class="fa fa-whatsapp"></i></a>
@@ -377,12 +392,11 @@
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>Osijo Emamnuel</h4>
-                  <span>Wordpress Developer</span>
+                  <span>Wordpress Developer || Content Writer</span>
                   <div class="social">
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-instagram"></i></a>
-                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://web.facebook.com/osijoemmanuel"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/osijoemmanuel/"><i class="fa fa-instagram"></i></a>
+                    <a href="tel: +234 909 124 2009"><i class="fa fa-phone"></i></a>
                   </div>
                 </div>
               </div>
@@ -396,12 +410,10 @@
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>Bolarinwa Ogunbamowa</h4>
-                  <span>Network Administrator</span>
+                  <span>Networking & Wordpress</span>
                   <div class="social">
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-instagram"></i></a>
-                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="tel: +234 806 787 3303"><i class="fa fa-phone"></i></a>
+                    <a href="https://www.linkedin.com/mwlite/in/bolarinwa-ogunbamowo-ba59a8202"><i class="fa fa-linkedin"></i></a>
                   </div>
                 </div>
               </div>
@@ -419,6 +431,23 @@
                   <div class="social">
                     <a href="tel: +234 905 734 2812"><i class="fa fa-phone"></i></a>
                     <a href="Https://github.com/Ceejay16042"><i class="fa fa-github"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Ayomide -->
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="member">
+              <img src="{{ asset('assets/img/Ayomide-devshood.jpeg')  }}" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Obadare Ayomide</h4>
+                  <span>Wordpress Developer</span>
+                  <div class="social">
+                    <a href="tel:+234 815 754 9848"><i class="fa fa-phone"></i></a>
+                    <a href="https://www.linkedin.com/in/obadare-joshua-042041203"><i class="fa fa-linkedin"></i></a>
                   </div>
                 </div>
               </div>
