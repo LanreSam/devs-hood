@@ -22,13 +22,13 @@
               <p>This cohort of tech personnels believe that the world is moving and will soon launch herself into the computing age and everything will have to be done digitally.</p>
               <p>Devhood is saddled with experts in</p>
               <ul>
-                <li><i class="ion-android-checkmark-circle"></i> Software development</li>
-                <li><i class="ion-android-checkmark-circle"></i> Website Development & Design</li>
-                <li><i class="ion-android-checkmark-circle"></i> UI/UX Design </li>
-                <li><i class="ion-android-checkmark-circle"></i> Graphics Design </li>
-                <li><i class="ion-android-checkmark-circle"></i> Networking (CCNA, Microsoft Servers e.t.c) </li>
-                <li><i class="ion-android-checkmark-circle"></i> Ethical Hacking & Pen testing </li>
-                <li><i class="ion-android-checkmark-circle"></i>  Digital Marketing & SEO (Search Engine Optimization) </li>
+                <li><i class="ion-android-checkmark-circle" style="color: #D1BC00"></i> Software development</li>
+                <li><i class="ion-android-checkmark-circle" style="color: #D1BC00"></i> Website Development & Design</li>
+                <li><i class="ion-android-checkmark-circle" style="color: #D1BC00"></i> UI/UX Design </li>
+                <li><i class="ion-android-checkmark-circle" style="color: #D1BC00"></i> Graphics Design </li>
+                <li><i class="ion-android-checkmark-circle" style="color: #D1BC00"></i> Networking (CCNA, Microsoft Servers e.t.c) </li>
+                <li><i class="ion-android-checkmark-circle" style="color: #D1BC00"></i> Ethical Hacking & Pen testing </li>
+                <li><i class="ion-android-checkmark-circle" style="color: #D1BC00"></i>  Digital Marketing & SEO (Search Engine Optimization) </li>
               </ul>
               <p>We focus on your goals and dreams and diligently help you to achieve them all. Our experts are well experienced and are well trained to best handle your short term and long term projects. This is what Devhood is called to be.</p>
             </div>
