@@ -16,7 +16,9 @@ class sendMailToSubscribers extends Controller
 
     public function sendMailToSubscribers()
     {
+        //gets all the emails in the newsletter subscription table
         $email = DB::table('news_letter_subscriptions')->get('email');
+        //sends an email to all the emails in the table
         foreach ($email as $emails) {
             Mail::to($emails)->send(new sendMailToSubscribersMail($email));
         }
