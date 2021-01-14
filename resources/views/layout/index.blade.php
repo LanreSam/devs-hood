@@ -254,7 +254,7 @@
 
     @if(Session::has('mail-msg'))
         <script>
-            swal("Subscription Successful!", "{!! Session::get('mail-msg') !!}", "{{ asset('assets/img/devs-hood.png') }}", {
+            swal("Message Sent Successfully!", "{!! Session::get('mail-msg') !!}", "{{ asset('assets/img/devs-hood.png') }}", {
                 button:"Close",
                 title: "DevsHood",
                 closeOnClickOutside: false,

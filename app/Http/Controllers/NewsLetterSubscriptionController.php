@@ -28,6 +28,6 @@ class NewsLetterSubscriptionController extends Controller
         $msg = "Thanks for subscribing to our NewsLetter";
         Mail::to($subscriber)->send(new NewsletterSubscriptionMail($msg));
         
-        return back()->with('subscribe-msg', 'You have successfully subscribed to DevsHood NewsLetter!');
+        return back()->with('subscribe-msg', 'You have successfully subscribed to DevsHood NewsLetter.');
     }
 }
