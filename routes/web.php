@@ -3,6 +3,7 @@
 use App\Http\Controllers\ContactController;
 use App\Http\Livewire\IndexComponent;
 use App\Http\Controllers\NewsLetterSubscriptionController;
+use App\Http\Controllers\sendMailToSubscribers;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -24,3 +25,5 @@ Route::get('/subscribers', [NewsLetterSubscriptionController::class, 'subscriber
 Route::post('/store-email', [NewsLetterSubscriptionController::class, 'storeEmail'])->name('store.email');
 
 Route::post('/send-email', [ContactController::class, 'sendMail'])->name('send.email');
+
+Route::post('users/{id}', [sendMailToSubscribers::class, 'sendMailToSubscribers'])->name('send.subscribers');
