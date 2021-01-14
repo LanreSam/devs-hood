@@ -26,7 +26,7 @@ Route::post('/store-email', [NewsLetterSubscriptionController::class, 'storeEmai
 
 Route::post('/send-email', [ContactController::class, 'sendMail'])->name('send.email');
 
+//route for sending mails to all subscribers
 Route::get('/mail-render', [sendMailToSubscribers::class, 'render']);
-
 Route::post('/mail-sub', [sendMailToSubscribers::class, 'sendMailToSubscribers'])->name('send.subscribers');
 
