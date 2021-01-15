@@ -4,7 +4,9 @@ use App\Http\Controllers\ContactController;
 use App\Http\Livewire\IndexComponent;
 use App\Http\Controllers\NewsLetterSubscriptionController;
 use App\Http\Controllers\sendMailToSubscribers;
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\URL;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,6 +18,10 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+if (App::environment('production')) {
+    URL::forceScheme('https');
+}
 
 
 Route::get('/', IndexComponent::class);
