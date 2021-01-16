@@ -115,7 +115,7 @@
 
                   <div class="footer-info">
                     <h3>DevsHood</h3>
-                    <p>Devhood is a tech conglomerates that are purpose driven with the aim of helping and assisting brands and cooperate organizations to be digitally, globally recognize and attainable.</p>
+                    <p>Devhood is a tech conglomerates that are purpose driven with the aim of helping and assisting brands and cooperate organizations to be digitally, globally recognized and attainable.</p>
                   </div>
 
                   <div class="footer-newsletter">
@@ -150,6 +150,7 @@
                     <p>
                       <strong class="text-light">Phone:</strong> +234 8128 251 336<br>
                       <strong class="text-light">Email:</strong> Devshood@gmail.com<br>
+                      <span class="text-danger">Email currently not active use phone instead</span>
                     </p>
                   </div>
 
@@ -184,7 +185,7 @@
                     </div>
                     <div class="form-group">
                         <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                        
+
                         @error('email')
                             <span class="text-danger">{{ $message }}</span>
                         @enderror
@@ -205,7 +206,7 @@
                     </div>
 
                     <div class="text-center"><button type="submit" title="Send Message" class="btn">Send Message</button></div>
-                    
+
                 </form>
             </div>
           </div>

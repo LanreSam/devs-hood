@@ -18,7 +18,7 @@
             <div class="about-content">
               <h2>About Us</h2>
               <h3>Team of Computer Scientist with different area of specialization</h3>
-              <p>Devhood is a tech conglomerates that are purpose driven with the aim of helping and assisting brands and cooperate organizations to be digitally, globally recognize and attainable.</p>
+              <p>Devhood is a tech conglomerates that are purpose driven with the aim of helping and assisting brands and cooperate organizations to be digitally, globally recognized and attainable.</p>
               <p>This cohort of tech personnels believe that the world is moving and will soon launch herself into the computing age and everything will have to be done digitally.</p>
               <p>Devhood is saddled with experts in</p>
               <ul>
