@@ -336,7 +336,7 @@
               <img src="{{ asset('assets/img/kelvin-devshood.jpeg')   }}" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4>Joe Kelvin</h4>
+                  <h4>Kasai Nuhu Joe</h4>
                   <span>Network Administrator & Graphics Designer</span>
                   <div class="social">
                     <a href="https://wa.link/5ke0ei"><i class="fa fa-whatsapp"></i></a>
@@ -464,7 +464,7 @@
                   <span>Full Stack Developer</span>
                   <div class="social">
                     <a href="tel:+234 701 948 1634"><i class="fa fa-phone"></i></a>
-                    <a href="Facebook.com/profile.php?I'd=100004827795384"><i class="fa fa-facebook"></i></a>
+                    <a href="https://web.facebook.com/profile.php?id=100004827795384"><i class="fa fa-facebook"></i></a>
                     <a href="http://instagram.com/odebisisolomonidowu"><i class="fa fa-instagram"></i></a>
                     <a href="https://www.linkedin.com/in/odebisi-solomon-9b44591b1"><i class="fa fa-linkedin"></i></a>
                   </div>
