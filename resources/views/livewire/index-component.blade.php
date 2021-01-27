@@ -214,7 +214,7 @@
                   <span>Software Developer</span>
                   <div class="social">
                     <a href="https://twitter.com/lanre_sam"><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-globe"></i></a>
+                    <a href="https://ezechelanre.herokuapp.com"><i class="fa fa-globe"></i></a>
                     <a href="https://github.com/LanreSam"><i class="fa fa-github"></i></a>
                     <a href="https://www.linkedin.com/in/ezeche-lanre/"><i class="fa fa-linkedin"></i></a>
                   </div>
