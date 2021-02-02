@@ -57,8 +57,8 @@
 
       <div class="logo float-left d-flex">
         <!-- Uncomment below if you prefer to use an image logo -->
-        <a href="#header" class="scrollto"><img src="{{ asset('assets/img/devs-hood.png') }}" alt="" class="img-fluid mb-4"></a>
-        <h1 class="mr-3"><a href="#intro" class="scrollto"><span class="text-light">DevsHood</span></a></h1>
+        <a href="#header" class="scrollto"><img src="{{ asset('assets/img/devs-hood.png') }}" alt="" class="img-fluid mb-4 mr-3"></a>
+        <h1><a href="#intro" class="scrollto"><span class="text-light">DevsHood</span></a></h1>
       </div>
 
       <nav class="main-nav float-right d-none d-lg-block">
